@@ -605,9 +605,9 @@ nav {
 
 .container_plans {
   margin-top: 6rem;
-  gap: 3rem;
+  gap: 2rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
@@ -642,27 +642,60 @@ nav {
   font-size: 50px;
 }
 
-.container_message_first_line {
+.comments{
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+  margin-top: 3.3rem;
+}
+
+.comments p{
+  font-family: var(--font1);
+  font-size: 0.8rem;
+  width: 80%;
   align-items: center;
-
-}
-
-.container_message_second_line {
-  display: flex;
   justify-content: center;
-  align-items: center;
-
+  margin: auto;
 }
 
-.container_profile_1 {
+.fundo{
+  background-color: #FFFFFF;
+  border-radius: 1rem;
+  padding: 70px 7px;
+}
+
+.blocks{
   display: flex;
-  margin-top: 4rem;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 20px;
+}
+.unica{
+  padding: 93px 7px;
+}
+.unica img{
+  width: 20%;
+}
+.comments h1{
+  width: 100%;
+  margin: auto;
+  font-size: 1rem;
+}
+.comments img{
+  width: 10%;
+  margin-left: 10%;
+}
+.second-line img{
+  width: 7%;
+}
+.people{
+  display: flex;
+}
+.people img{
+  width: 60%;
+  display: flex;
+  text-align: center;
 }
 
-.container_profile_1 div {
-  display: grid;
-  gap: 0.2rem;
-}
